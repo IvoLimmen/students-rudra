@@ -1,0 +1,4 @@
+struct Course { 
+    name: str
+    grades: list[float]
+}

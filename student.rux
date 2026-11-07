@@ -1,0 +1,23 @@
+import "students";
+
+students: list[Student];
+student: Student;
+students = new_list();
+
+fn main() -> int {
+
+  student.name = "Ivo";
+  student.courses = new_list();
+  student.courses.name = "Math";
+  student.courses.grades = new_list();
+  push(student.courses.grades, 7.6);
+  push(student.courses.grades, 4.5);
+  push(student.courses.grades, 5.3);
+
+  print("Test");
+  print(list_len(student.courses.grades));  
+
+  return 0;
+}
+
+return main();

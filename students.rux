@@ -1,0 +1,10 @@
+import "courses";
+
+struct Student { 
+    name: str
+    courses: list[Course]
+}
+
+fn find_student() {
+
+}
