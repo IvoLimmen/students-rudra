@@ -38,4 +38,4 @@ The bad:
 
 The ugly:
 
-* No examples of more compex data structures. My application does not have a complex data structure but I looks like it chockes on it.
+* No examples of more compex data structures. My application does not have a complex data structure but it looks like it chockes on it.
